@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.custom-list {
+    position: relative;
+}
+
+.custom-list-1 {
+    margin-left: 20px;
+}
+
+.custom-list-1::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background: #000;
+}
+
+.custom-list-2 {
+    margin-left: 40px;
+}
+
+.custom-list-2::after {
+    content: url("../img/heart-svgrepo-com.svg");
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 15px;
+    height: 15px;
+}

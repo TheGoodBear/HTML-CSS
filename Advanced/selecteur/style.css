@@ -1,0 +1,19 @@
+#titre1+p {
+    color: red;
+}
+
+#titre2~p {
+    color: rgb(30, 255, 0);
+}
+
+#div1 h1 {
+    color: rgb(255, 0, 0);
+}
+
+#div2>h1 {
+    color: rgb(0, 0, 255);
+}
+
+.coma>h1, .coma>p, .coma>a {
+    text-decoration: underline;
+}

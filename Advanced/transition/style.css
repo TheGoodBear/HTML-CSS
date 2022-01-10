@@ -1,0 +1,29 @@
+.cube {
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 500ms ease-out;
+    /* transition : ce-que-tu-transitionne combien-de-temps de-quelle-façon */
+}
+
+#rouge:hover {
+    box-shadow: 2px 2px 3px rgba(48, 48, 48, 0.801);
+}
+
+#rouge {
+    background: red;
+    z-index: 1;
+}
+
+#bleu {
+    background: blue;
+}
+
+#bleu:hover h1 {
+    color: white;
+}
+
+p {
+    font-size: 1.5rem;
+    color: white;
+}

@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    background: yellow;
+    height: 100vh;
+    /* 100vh = toute la hauteur de la fenêtre / navigateur */
+}
+
+
+#reference {
+    font-size: 2rem;
+    /* 1rem = 16px (police de base du body, si le body a une font-size de 32px, alors 1rem=32px) */
+}
+
+#cube1 {
+    width: 50%;
+    /* % du conteneur dans lequel on est */
+    height: 300px;
+    background: red;
+}
+
+#cube2 {
+    width: 800px;
+    /* % du conteneur dans lequel on est */
+    height: 300px;
+    background: blue;
+}
+
+#cube2 p {
+    width: 50%;
+    /* % du conteneur dans lequel on est */
+}
+
+#cube3 {
+    width: 800px;
+    /* % du conteneur dans lequel on est */
+    height: 300px;
+    background: green;
+    font-size: 30px;
+}
+
+#cube3>h1 {
+    font-size: 2em;
+    /* 1em = taille de police du conteneur dans lequel on est */
+}

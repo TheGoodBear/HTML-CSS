@@ -1,0 +1,84 @@
+.carre {
+    width: 100vw;
+    height: 300px;
+    background: red;
+}
+
+.transform {
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+
+    100% {
+        transform: translate(500px, 0px);
+    }
+}
+
+#carre1:hover>#transform1 {
+    animation: move 800ms linear infinite;
+}
+
+#carre2:hover>#transform2 {
+    animation: move 800ms alternate infinite;
+}
+
+#carre3:hover>#transform3 {
+    animation: move 800ms alternate-reverse infinite;
+}
+
+#carre4:hover>#transform4 {
+    animation: move 800ms reverse infinite;
+}
+
+#carre5:hover>#transform5 {
+    animation: 800ms move 2s infinite;
+}
+
+@keyframes move2 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(300px, 100px);
+    }
+
+    100% {
+        transform: translate(500px, 0px);
+    }
+}
+
+#carre6:hover>#transform6 {
+    animation: 800ms move2 alternate infinite;
+}
+
+@keyframes move3 {
+    0% {
+        transform: translate(0px, 0px);
+        background-color: yellow;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    50% {
+        transform: translate(300px, 100px);
+        background-color: blue;
+        box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    100% {
+        transform: translate(500px, 0px);
+        background-color: green;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+    }
+}
+
+#carre7:hover>#transform7 {
+    animation: 3s move3 alternate infinite;
+}

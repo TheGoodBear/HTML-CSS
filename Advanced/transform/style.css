@@ -1,0 +1,37 @@
+.carre {
+    width: 500px;
+    height: 500px;
+    background: red;
+}
+
+.transform {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: all 500ms ease-out;
+    /* transition : ce-que-tu-transitionne combien-de-temps de-quelle-façon */
+}
+
+#carre1:hover>#transform1 {
+    transform: translate(100px, 100px);
+    /* translate(x,y) : déplace le carré de x et y */
+}
+
+#carre2:hover>#transform2 {
+    transform: rotate(45deg);
+    /* rotate(angle) : tourne le carré de angle */
+}
+
+#carre3:hover>#transform3 {
+    transform: scale(2);
+    /* scale(x) : met le carré à la taille x */
+}
+
+#carre4:hover>#transform4 {
+    transform: skew(45deg);
+    /* skew(angle) : skew le carré de angle */
+}
+
+#carre5:hover>#transform5 {
+    transform: skew(45deg) translate(100px, 100px) rotate(45deg) scale(2);
+}
