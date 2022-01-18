@@ -1,5 +1,7 @@
-Site de référence : https://www.w3schools.com 
+Add "Live Server" extension in VS Code
 
+
+Site de référence : https://www.w3schools.com 
 
 Termes à rechercher sur Internet :
 
