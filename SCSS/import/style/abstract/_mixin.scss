@@ -1,0 +1,5 @@
+@mixin button($margin: 2rem) {
+    outline: 5px dotted #000;
+    margin: $margin;
+    color: $green;
+}

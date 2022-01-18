@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulaire</title>
+    </head>
+
+    <body>
+
+        <form action="" method="post">
+            <label for="name">Prénom</label>
+            <input type="text" name="name" placeholder="John" required>
+            <label for="lastname">Nom de famille</label>
+            <input type="text" name="lastname" placeholder="Smith">
+            <input type="password" name="psw" id="psw" placeholder="Mot de passe">
+            <input type="number" name="age" id="age" placeholder="Ton age">
+            <input type="tel" name="tel" id="tel" placeholder="Téléphone">
+            <input type="email" name="mail" id="mail" placeholder="email">
+            <input type="date" name="date" id="date" placeholder="date de naissance">
+            <input type="color" name="color" id="color" placeholder="quelle est ta couleure préféré">
+            <input type="file" name="image" id="image" placeholder="choisis ton image">
+            <div class="form-inline">
+                <label for="checkbox">Es-tu content ?</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+            </div>
+
+            <div class="form-radio">
+                <label for="radio">Quel est ton sexe ?</label>
+                <input type="radio" name="radio" id="radio" value="homme">Homme</input>
+                <input type="radio" name="radio" id="radio" value="femme">Femme</input>
+            </div>
+
+            <label for="theme">Tu veux quel theme ?</label>
+            <select name="theme" id="theme">
+                <option value="Clair">Clair</option>
+                <option value="Sombre">Sombre</option>
+                <option value="daltonien">Daltonien</option>
+            </select>
+            <input type="submit" value="Envoyer">
+        </form>
+
+    </body>
+
+</html>

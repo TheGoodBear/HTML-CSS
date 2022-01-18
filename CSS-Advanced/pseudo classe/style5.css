@@ -11,6 +11,18 @@ a {
     font-size: 2rem;
 }
 
+button {
+    font-size: 2rem;
+}
+
+button:focus {
+    background-color: red;
+}
+
+a:visited {
+    color: mediumaquamarine;
+}
+
 a:active {
     color: pink;
 }
@@ -18,10 +30,6 @@ a:active {
 a:focus {
     outline: none;
     background-color: yellow;
-}
-
-a:visited {
-    color: mediumaquamarine;
 }
 
 a:last-of-type:focus {
@@ -41,7 +49,15 @@ ul li:hover {
 }
 
 
-#list2 li:nth-child(odd) {
+#list2 li:nth-child(even) {
+    background: red;
+}
+
+#list3 li:nth-child(odd) {
+    background: red;
+}
+
+#list4 li:nth-child(3n) {
     background: red;
 }
 
@@ -50,6 +66,10 @@ p::first-letter {
     font-size: 4rem;
 }
 
-h1:not(#notMe) {
-    color: bisque;
+#title1 h1:not(#notMe) {
+    color: green;
+}
+
+#title2 h1:not(#title2 h1:nth-child(odd)) {
+    color: green;
 }

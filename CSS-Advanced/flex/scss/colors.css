@@ -1,0 +1,63 @@
+#child-1 {
+  background-color: #320a3c;
+  border: dotted 5px black;
+  -webkit-filter: hue-rotate(10deg);
+          filter: hue-rotate(10deg);
+}
+
+#child-2 {
+  background-color: #641478;
+  border: dotted 5px black;
+  -webkit-filter: hue-rotate(20deg);
+          filter: hue-rotate(20deg);
+}
+
+#child-3 {
+  background-color: #961eb4;
+  border: dotted 5px black;
+  -webkit-filter: hue-rotate(30deg);
+          filter: hue-rotate(30deg);
+}
+
+#child-4 {
+  background-color: #c828f0;
+  border: dotted 5px black;
+  -webkit-filter: hue-rotate(40deg);
+          filter: hue-rotate(40deg);
+}
+
+#child-5 {
+  background-color: #fa32ff;
+  border: dotted 5px black;
+  -webkit-filter: hue-rotate(50deg);
+          filter: hue-rotate(50deg);
+}
+
+#child-6 {
+  background-color: #ff3cff;
+  border: dotted 5px black;
+  -webkit-filter: hue-rotate(60deg);
+          filter: hue-rotate(60deg);
+}
+
+#child-7 {
+  background-color: #ff46ff;
+  border: dotted 5px black;
+  -webkit-filter: hue-rotate(70deg);
+          filter: hue-rotate(70deg);
+}
+
+#child-8 {
+  background-color: #ff50ff;
+  border: dotted 5px black;
+  -webkit-filter: hue-rotate(80deg);
+          filter: hue-rotate(80deg);
+}
+
+#child-9 {
+  background-color: #ff5aff;
+  border: dotted 5px black;
+  -webkit-filter: hue-rotate(90deg);
+          filter: hue-rotate(90deg);
+}
+/*# sourceMappingURL=colors.css.map */

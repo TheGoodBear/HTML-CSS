@@ -1,0 +1,29 @@
+.container {
+  background: red;
+}
+
+.container h1 {
+  color: blue;
+}
+
+.container h1:hover {
+  color: green;
+}
+
+.container h1::-moz-selection {
+  color: yellow;
+}
+
+.container h1::selection {
+  color: yellow;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */

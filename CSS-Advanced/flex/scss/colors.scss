@@ -1,0 +1,12 @@
+@mixin color-divs ($count) {
+    @for $i from 1 through $count {
+        #child-#{$i} {
+            background-color: rgb(50*$i, 10*$i, 60*$i);
+            border: dotted 5px black;
+            filter: hue-rotate(#{$i*10}deg);
+
+        }
+    }
+}
+
+@include color-divs(9);

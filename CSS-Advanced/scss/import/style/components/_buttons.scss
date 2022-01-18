@@ -1,0 +1,7 @@
+a {
+    @include button(10px);
+
+    &:hover {
+        @include button(20px);
+    }
+}

@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin-inline: auto;
+}
+
+input {
+    margin-bottom: 2rem;
+}
+
+.form-inline {
+    margin-bottom: 0;
+}

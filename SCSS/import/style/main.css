@@ -1,0 +1,12 @@
+a {
+  outline: 5px dotted #000;
+  margin: 10px;
+  color: #55ff71;
+}
+
+a:hover {
+  outline: 5px dotted #000;
+  margin: 20px;
+  color: #55ff71;
+}
+/*# sourceMappingURL=main.css.map */

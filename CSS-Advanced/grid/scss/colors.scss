@@ -1,0 +1,10 @@
+@mixin color-divs ($count){
+    @for $i from 1 through $count {
+        .child:nth-child(#{$i}){
+        background-color: rgb(50*$i, 20*$i, 60*$i);
+        border: dotted 5px black;
+        }
+    }
+}
+
+@include color-divs(9);
